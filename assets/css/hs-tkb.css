@@ -1,0 +1,16 @@
+.thoikhoabieu {
+    background-color: #A95757;
+    color: #ffffff;
+}
+
+.hocphi,
+.diem,
+.thongtincanhan {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.node-tkb {
+    font-style: italic;
+    font-weight: 500;
+}
