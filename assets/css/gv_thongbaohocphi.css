@@ -1,0 +1,11 @@
+.thongbaohoc_container {
+    padding: 50px !important;
+}
+
+.hocphi_content {
+    width: 100%;
+    background-color: #DFDFDF;
+    padding: 20px !important;
+    height: 40%;
+    margin-bottom: 50px;
+}

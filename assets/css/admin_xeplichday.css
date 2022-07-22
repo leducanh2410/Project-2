@@ -1,0 +1,9 @@
+tr, th, td {
+    text-align: center !important;
+    height: 15px !important;
+    padding: 10px !important;
+}
+
+table {
+    height: auto;
+}

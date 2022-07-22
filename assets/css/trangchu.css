@@ -6,7 +6,7 @@
 
 .background-header img {
     width: 100vw;
-    max-height: 200px;
+    max-height: 130px;
 }
 
 .name-school {
@@ -38,7 +38,7 @@
 }
 
 .block-content {
-    padding-top: 196px;
+    padding-top: 130px;
 }
 
 .menu-header {
@@ -61,7 +61,7 @@
 .fixed-header-menu {
     position: fixed;
     z-index: 100;    
-    top: 196px;
+    top: 130px;
 }
 
 .menu-header ul {

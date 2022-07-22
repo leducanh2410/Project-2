@@ -1,0 +1,50 @@
+
+.timkiemhocsinh_container {
+    padding: 50px !important;
+}
+
+.search-block {
+    width: 30%;
+}
+
+table {
+    width: 70% !important;
+}
+
+.name_hs:hover {
+    cursor: pointer;
+}
+
+.timkiemhocsinh_container {
+    display: block;
+}
+
+.capnhatdiem {
+    display: none;
+    padding: 40px !important;
+}
+
+.capnhatdiem table {
+    width: 100% !important; 
+}
+
+.btn-capnhatdiem {
+    height: 40px;
+    font-size: 18px !important;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  a.previous:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  a.previous {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  

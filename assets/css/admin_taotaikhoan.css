@@ -1,0 +1,13 @@
+.taotaikhoan_container {
+    padding: 50px !important;
+}
+
+.taotaikhoan_content {
+    padding: 50px !important;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#myFile {
+    margin-right: 100px;
+}

@@ -3,7 +3,7 @@
 }
 
 .diem-container {
-    margin-top: 200px !important;
+    margin-top: 130px !important;
     position: fixed;
     height: 100vh;
     display: flex !important;
@@ -15,6 +15,10 @@
     background-color: #D9D9D9;
     padding-right: 0 !important;
 
+}
+
+.menu a {
+    text-decoration: none;
 }
 
 .list-menu {
