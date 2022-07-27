@@ -55,25 +55,43 @@
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  .table-diem td, .table-diem th {
+}
+
+.table-diem td,
+.table-diem th {
     border: 1px solid #ddd;
     padding: 8px;
-  }
-  
-  .table-diem tr:nth-child(even){background-color: #f2f2f2;}
-  
-  .table-diem tr:hover {background-color: #ddd;}
-  
-  .table-diem th {
+}
+
+.table-diem tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-diem tr:hover {
+    background-color: #ddd;
+}
+
+.table-diem th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #04AA6D;
     color: white;
-  }
+}
 
-  .logout_btn {
+.logout_btn {
     margin-left: 20px;
-  }
+}
+
+.logout_btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logout_btn:hover {
+    opacity: 0.9;
+}
+
+.logout_btn a:hover {
+    color: #ffffff;
+}

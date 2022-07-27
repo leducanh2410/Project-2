@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location: index.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +31,8 @@
                 <div class="name-school">Trường THPT HUST</div>
                 <div class="account d-flex align-items-center justify-content-between">
                     <i class="fas fa-user-circle"></i>
-                    <button type="button" class="logout_btn btn btn-danger">Đăng xuất</button>
+                    <?php echo "<h1>" . $_SESSION['username'] . "</h1>"; ?>
+                    <button type="button" class="logout_btn btn btn-danger"><a href="logout.php">Đăng xuất</a></button>
                 </div>
             </div>
         </div>
@@ -29,10 +40,10 @@
 
     <div class="diem-container row">
         <div class="menu col-3">
-            <a href="gv_lichday.html"><div class="list-menu diem">Lịch dạy học</div></a>
-            <a href="gv_timkiemhocsinh.html"><div class="list-menu hocphi">Tìm kiếm học sinh</div></a>
-            <a href="gv_thongbaohocphi.html"><div class="list-menu thoikhoabieu">Thông báo học phí</div></a>
-            <a href="gv_thongtincanhan.html"><div class="list-menu thongtincanhan">Thông tin cá nhân</div></a>
+            <a href="gv_lichday.php"><div class="list-menu diem">Lịch dạy học</div></a>
+            <a href="gv_timkiemhocsinh.php"><div class="list-menu hocphi">Tìm kiếm học sinh</div></a>
+            <a href="gv_thongbaohocphi.php"><div class="list-menu thoikhoabieu">Thông báo học phí</div></a>
+            <a href="gv_thongtincanhan.php"><div class="list-menu thongtincanhan">Thông tin cá nhân</div></a>
         </div>
         <div class="col-9 thongtin-container">
             <div class="row d-flex">
@@ -51,6 +62,6 @@
             </div>
         </div>
     </div>
-    
+
 </body>
 </html>
