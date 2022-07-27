@@ -1,5 +1,6 @@
 .account {
     font-size: 50px;
+    width: 200px;
 }
 
 .diem-container {
@@ -71,4 +72,8 @@
     text-align: left;
     background-color: #04AA6D;
     color: white;
+  }
+
+  .logout_btn {
+    margin-left: 20px;
   }
